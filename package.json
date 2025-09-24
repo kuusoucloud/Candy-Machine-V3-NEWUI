@@ -9,23 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@solana/web3.js": "^1.95.3",
-    "@solana/wallet-adapter-base": "^0.9.29",
-    "@solana/wallet-adapter-react": "^0.15.35",
-    "@solana/wallet-adapter-react-ui": "^0.9.33",
-    "@solana/wallet-adapter-phantom": "^0.9.27",
-    "@solana/wallet-adapter-solflare": "^0.9.28",
-    "@solana/wallet-adapter-ledger": "^0.9.27",
-    "@metaplex-foundation/mpl-candy-machine": "^6.0.2",
-    "@metaplex-foundation/mpl-token-metadata": "^3.1.1",
-    "@metaplex-foundation/umi": "^0.9.1",
-    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
-    "@metaplex-foundation/umi-rpc-web3js": "^0.9.1",
-    "@metaplex-foundation/umi-signer-wallet-adapters": "^0.9.1",
-    "lucide-react": "^0.452.0",
+    "@solana/web3.js": "^1.98.4",
+    "@solana/wallet-adapter-base": "^0.9.27",
+    "@solana/wallet-adapter-react": "^0.15.39",
+    "@solana/wallet-adapter-react-ui": "^0.9.39",
+    "@solana/wallet-adapter-phantom": "^0.9.28",
+    "@solana/wallet-adapter-solflare": "^0.6.32",
+    "@solana/wallet-adapter-ledger": "^0.9.25",
+
+    "@metaplex-foundation/mpl-candy-machine": "^6.1.0",
+
+    /* Keep all UMI packages on the same minor for compatibility */
+    "@metaplex-foundation/umi": "^0.9.2",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
+    "@metaplex-foundation/umi-rpc-web3js": "^0.9.2",
+    "@metaplex-foundation/umi-signer-wallet-adapters": "^0.9.2",
+
     "next": "14.1.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "lucide-react": "^0.452.0"
   },
   "devDependencies": {
     "typescript": "5.4.2",
